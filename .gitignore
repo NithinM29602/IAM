@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Python package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Local database files
+*.db
+instance/
+
+# Secrets and keys
+secrets/
+*.key
+*.pem
+*.crt
+
+# Docker artifacts (if using Docker)
+docker-compose.override.yml
+.docker/
+
+# Other temporary files
+*.bak
+*.tmp
+*.swp
+*.lock
