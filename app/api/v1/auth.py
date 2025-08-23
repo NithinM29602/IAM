@@ -25,6 +25,7 @@ async def sign_in(
     Returns:
         Token: The token for the authenticated user.
     """
+    
     logger.info("Inside a signIn.")
     email = credentails.email
     password = credentails.password
