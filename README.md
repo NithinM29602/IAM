@@ -84,3 +84,53 @@ These interfaces allow you to:
    deactivate
    ```
 
+
+
+## File Structure
+
+.
+├── app
+│   ├── __init__.py
+│   ├── api
+│   │   ├── __init__.py
+│   │   └── v1
+│   │       ├── __init__.py
+│   │       ├── auth.py
+│   │       └── users.py
+│   ├── core
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   ├── rate_limit.py
+│   │   └── security.py
+│   ├── db
+│   │   ├── __init__.py
+│   │   ├── database.py
+│   │   └── schemas.py
+│   ├── dependencies
+│   │   └── db.py
+│   ├── main.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── token.py
+│   │   └── user.py
+│   ├── services
+│   │   ├── __init__.py
+│   │   ├── auth_service.py
+│   │   └── user_service.py
+│   └── utils
+│       ├── __init__.py
+│       ├── exception_handler.py
+│       └── logger.py
+├── docker-compose.yaml
+├── Dockerfile
+├── docs
+│   ├── api
+│   │   └── openapi.json
+│   └── architecture
+├── iam_file_structure.txt
+├── README.md
+├── requirements.txt
+└── tests
+    ├── __init__.py
+    ├── test_auth.py
+    └── test_users.py
